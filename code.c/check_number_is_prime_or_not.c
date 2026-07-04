@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main (){
+    int n;
+    printf("enter the number : ");
+    scanf("%d",&n);
+    int a=0;
+    for(int i=2 ; i<=n-1 ;i++){
+    if(n%i==0){
+        a=1;
+    }
+    }
+if(a==0) printf("the given number is prime ");
+else printf ("the given numer is compsite");
+    return 0;
+}
